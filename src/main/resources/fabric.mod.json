@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "enchantment-terminal",
+	"version": "${version}",
+	"name": "Enchantment Terminal",
+	"description": "This is an Enchantment Table replacement mod",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/enchantment-terminal/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.bowenarrrows.enchantmentterm.EnchantmentTerminal"
+		],
+		"client": [
+			"net.bowenarrrows.enchantmentterm.EnchantmentTerminalClient"
+		],
+		"fabric-datagen": [
+			"net.bowenarrrows.enchantmentterm.EnchantmentTerminalDataGenerator"
+		]
+	},
+	"mixins": [
+		"enchantment-terminal.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
