@@ -8,7 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item PORTABLE_ENCHANT_TERM = registerItem("portable-enchant-term", new Item(new FabricItemSettings()));
+    public static final Item PORTABLE_ENCHANT_TERM = registerItem("portable_enchant_term", new Item(new FabricItemSettings()));
 
 
     private static Item registerItem(String name, Item item) {
