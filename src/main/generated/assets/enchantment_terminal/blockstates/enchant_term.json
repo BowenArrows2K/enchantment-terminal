@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "enchantment_terminal:block/enchant_term",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "enchantment_terminal:block/enchant_term"
+    },
+    "facing=south": {
+      "model": "enchantment_terminal:block/enchant_term",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "enchantment_terminal:block/enchant_term",
+      "y": 270
+    }
+  }
+}

@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "enchantment_terminal:block/enchant_term"
-  }
-}

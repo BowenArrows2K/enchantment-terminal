@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "enchantment_terminal:enchant_term"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "S",
+    "E"
+  ],
+  "result": {
+    "item": "enchantment_terminal:portable_enchant_term"
+  },
+  "show_notification": true
+}
